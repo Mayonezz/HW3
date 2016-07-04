@@ -9,23 +9,27 @@ body{
 }
 
 .menu{
-	background-color: #575757;
+	background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 	margin: 0 0 45px 0;
 }
 
 .menu1{
-text-align: center;
-padding: 10px;
-display: inline-block;
-width: 100px;
-color: white;
-text-shadow: 0 1px 1px black, 0 0 0em gray;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+	width: 100px;
+	color: white;
+	text-shadow: 0 1px 1px black, 0 0 0em gray;
 }
 
 .menu1:hover{
-background-color: #464646;
-border-right: 1px solid #838383;
-border-left: 1px solid #838383;
+  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
 }
 
 .list{
@@ -62,10 +66,10 @@ border-left: 1px solid #838383;
 }
 
 .foot{
-text-align: center;
-padding: 10px;
-display: inline-block;
-width: 100px;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+	width: 100px;
 }
 
 .foot:hover{
